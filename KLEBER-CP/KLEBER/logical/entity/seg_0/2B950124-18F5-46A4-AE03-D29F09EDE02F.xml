@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B950124-18F5-46A4-AE03-D29F09EDE02F" name="status_paciente">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:20:45 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="condicao_paciente" id="590FFDE3-32CB-E888-5EA1-C966E61B68A3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:21:15 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidade_paciente" id="FEBFEB73-EE26-50C1-2189-F1207524E5FB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:21:40 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidade_medico" id="BAAFF63C-DCCC-7BCD-CAD5-F40E6388DB5F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:24:42 UTC</createdTime>
+<generatorID>A892D93D-3BDE-7F69-488E-53E082E60E6C</generatorID>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<referedAttribute>8433B1A5-9D21-64CE-9CF4-4415BFA483A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A73FA07-0496-D179-88D7-FBD61779058F" name="status_paciente PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:21:39 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>590FFDE3-32CB-E888-5EA1-C966E61B68A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

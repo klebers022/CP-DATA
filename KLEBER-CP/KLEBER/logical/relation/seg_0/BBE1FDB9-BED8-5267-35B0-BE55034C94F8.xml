@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_cadatro_paciente_numero_emergencia_paciente" directorySegmentName="seg_0" id="BBE1FDB9-BED8-5267-35B0-BE55034C94F8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:08:56 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<sourcePk>7F6A4CE2-0313-60E3-E3CF-666F1DCEFEF0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF509DFB-07CC-E0E3-E3C4-3155E568FBDF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32E97F5C-3217-CDD1-66AB-108345357520</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

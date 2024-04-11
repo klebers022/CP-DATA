@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KLEBER" id="2ECE6B98-0DA9-C2ED-C094-4F35F2BC8E23" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 12:23:46 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2ECE6B98-0DA9-C2ED-C094-4F35F2BC8E23</designId>
+</OSDM_Design>

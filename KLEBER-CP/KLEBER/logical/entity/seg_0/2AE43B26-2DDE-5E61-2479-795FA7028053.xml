@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AE43B26-2DDE-5E61-2479-795FA7028053" name="plano_cliente">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:49:40 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dt_inicio" id="0F9771EB-D1CA-C5D5-990E-CCC90E180024">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:50:14 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="78F68BCE-1B16-DD82-5EF9-B8F0A4CC7E10">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:50:28 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_plano" id="E189DAB5-A2DA-6D74-CFA2-531646EAC604">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:53:12 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao_plano" id="8ED2FA41-1975-3DD2-74D6-6F2B16268527">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:57:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[um cliente pode ter varios planos e um plano pode ter varios clientes ]]></commentInRDBMS>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED46E915-B184-7A32-5B16-ECBFB5770A92" name="plano_cliente PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:53:59 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E189DAB5-A2DA-6D74-CFA2-531646EAC604</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_cliente_plano" directorySegmentName="seg_0" id="42D8F9B9-4FB7-A7A0-A56A-02356B8E2C63">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:51:09 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2AE43B26-2DDE-5E61-2479-795FA7028053</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2F3FB92-8880-9FD2-52EE-D0C0EC0BE702</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

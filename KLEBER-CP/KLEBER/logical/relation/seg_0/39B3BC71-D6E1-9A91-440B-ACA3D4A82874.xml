@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_paciente_contato" directorySegmentName="seg_0" id="39B3BC71-D6E1-9A91-440B-ACA3D4A82874">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:20:06 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<sourcePk>7F6A4CE2-0313-60E3-E3CF-666F1DCEFEF0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF509DFB-07CC-E0E3-E3C4-3155E568FBDF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF5E6E35-D792-B781-C678-0C69636BD690</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C420F4B-EC1B-074D-4447-991C8ED57019" name="endereco_paciente">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:11:36 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_rua" id="4F0EB946-2B00-11E2-FAB7-2CEBA51A3DD7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:26:22 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="52636202-C40E-1CBA-3C04-5E6A510A3641">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:11:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do bairro ]]></commentInRDBMS>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="72987354-AEDF-ADBF-2738-5C30BAB932A9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:14:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome da cidade ]]></commentInRDBMS>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="E6BFF327-2199-909F-478A-F53FA1439AB5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:14:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do estado ]]></commentInRDBMS>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep_paciente" id="67B724A9-DCE6-8E66-58BD-C51E11950EAB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:15:32 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_casa" id="7BD4F70F-E05B-1376-5CF6-ADDA72DD7EF8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:57:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[ numero da casa 
+ ]]></commentInRDBMS>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B8529EC-DD4B-B362-91CF-7AF872E9D679" name="endereco_paciente PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:26:36 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F0EB946-2B00-11E2-FAB7-2CEBA51A3DD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

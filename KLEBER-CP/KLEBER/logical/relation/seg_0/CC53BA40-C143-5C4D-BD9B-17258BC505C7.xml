@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_endereco_paciente_cadastro_paciente" directorySegmentName="seg_0" id="CC53BA40-C143-5C4D-BD9B-17258BC505C7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:21:49 UTC</createdTime>
+<ownerDesignName>KLEBER</ownerDesignName>
+<engineerTo>
+<item key="24500B29-1CFC-0515-7181-BE220B23C3CD" value="true"/>
+</engineerTo>
+<sourcePk>2B8529EC-DD4B-B362-91CF-7AF872E9D679</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C420F4B-EC1B-074D-4447-991C8ED57019</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF509DFB-07CC-E0E3-E3C4-3155E568FBDF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
